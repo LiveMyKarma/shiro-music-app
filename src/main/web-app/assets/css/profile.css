@@ -1,0 +1,55 @@
+html { 
+  background: url(../img/headphones-skinny.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.btn-floating.halfway-fab.waves-effect.waves-light.red {
+	right: 0;
+	bottom: 0;
+}
+
+.container {
+	margin-top: 50px;
+}
+
+.navbar nav {
+	background: transparent;
+	border-bottom: 2px solid #DA4453;
+}
+
+.headphones {
+  height: 50px;
+  width: 50px;
+  margin: 0 10px;
+}
+
+.logo {
+	display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo a {
+	display: flex;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li a {
+	font-size: 1.64rem;
+	margin-right: 10px;
+}
+
+.card.small:hover {
+	cursor: pointer; ;
+	transition: transform .6s;
+	transform: scale3d(1.06, 1.06, 1);
+	border: none;
+}
